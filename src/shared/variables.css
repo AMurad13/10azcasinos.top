@@ -1,0 +1,100 @@
+:root {
+  --color-bg-rgb: 7, 26, 32;
+  --color-bg-alt-rgb: 10, 35, 43;
+  --color-surface-rgb: 13, 42, 51;
+  --color-surface-alt-rgb: 18, 52, 63;
+  --color-header-rgb: 11, 12, 17;
+  --color-overlay-rgb: 19, 22, 31;
+  --color-white-rgb: 255, 255, 255;
+  --color-black-rgb: 0, 0, 0;
+  --color-text-rgb: 241, 242, 246;
+  --color-text-soft-rgb: 199, 203, 214;
+  --color-text-nav-rgb: 217, 221, 232;
+  --color-text-muted-rgb: 139, 145, 163;
+  --color-text-dim-rgb: 95, 101, 119;
+  --color-primary-rgb: 0, 180, 200;
+  --color-primary-light-rgb: 79, 214, 230;
+  --color-primary-dark-rgb: 0, 146, 163;
+  --color-accent-rgb: 255, 140, 66;
+  --color-accent-light-rgb: 255, 176, 122;
+  --color-accent-dark-rgb: 224, 112, 42;
+  --color-accent-contrast-rgb: 26, 14, 0;
+  --color-success-rgb: 46, 204, 113;
+  --color-success-light-rgb: 159, 240, 191;
+  --color-danger-light-rgb: 255, 138, 144;
+
+  --font-family-base: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --font-size-xxs: 11px;
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-md: 14px;
+  --font-size-lg: 15px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 17px;
+  --font-size-xxxl: 18px;
+  --font-size-base: 17px;
+  --font-size-lead: 19px;
+  --font-size-name: 20px;
+  --font-size-h2: clamp(24px, 2.8vw, 32px);
+  --font-size-h1: clamp(34px, 4.4vw, 52px);
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-base: 1.65;
+  --line-height-heading: 1.12;
+  --line-height-tight: 1.2;
+  --letter-spacing-heading: -.015em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 18px;
+  --space-6: 20px;
+  --space-7: 26px;
+
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+  --radius-xxl: 16px;
+  --radius-xxxl: 20px;
+  --radius-full: 999px;
+
+  --container-w: 1140px;
+  --container-wide-w: 1400px;
+  --container-offset: 16px;
+  --header-h: 68px;
+  --root-scroll-offset: 84px;
+  --root-footer-bottom-pb: 120px;
+
+  --shadow-lg: 0 24px 60px rgba(var(--color-black-rgb), .45);
+  --shadow-header: 0 10px 30px rgba(var(--color-black-rgb), .4);
+  --gradient-brand: linear-gradient(90deg, rgba(var(--color-primary-rgb), 1), rgba(var(--color-accent-rgb), 1));
+  --gradient-primary: linear-gradient(180deg, rgba(var(--color-primary-light-rgb), 1), rgba(var(--color-primary-dark-rgb), 1));
+  --gradient-accent: linear-gradient(180deg, rgba(var(--color-accent-light-rgb), 1), rgba(var(--color-accent-dark-rgb), 1));
+  --gradient-glow: radial-gradient(55% 60% at 18% 0%, rgba(var(--color-primary-rgb), .3), transparent 62%), radial-gradient(40% 55% at 92% 8%, rgba(var(--color-accent-rgb), .14), transparent 60%);
+
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --transition-base: .3s;
+  --transition-fast: .22s;
+
+  --z-decor: 0;
+  --z-content: 1;
+  --z-header: 900;
+  --z-promo: 950;
+  --z-progress: 1000;
+  --z-skip: 2000;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --font-size-base: 16px;
+    --font-size-lead: 17px;
+    --root-footer-bottom-pb: 110px;
+  }
+}
