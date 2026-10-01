@@ -1,0 +1,5 @@
+{
+  "buildCommand": "mkdir -p dist && cp home.html home.css home.js dist/ && cp -R ../../shared ../../assets dist/",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/", "destination": "/home.html" }]
+}
